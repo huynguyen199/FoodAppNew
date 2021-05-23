@@ -1,0 +1,158 @@
+[
+    {
+        "type": "File",
+        "name": "c:\\Users\\MyPC\\ReactNativeCLI\\FoodAppNew\\android\\app\\build.gradle",
+        "parent_id": null,
+        "fsPath": "c:\\Users\\MyPC\\ReactNativeCLI\\FoodAppNew\\android\\app\\build.gradle",
+        "workspaceRoot": null,
+        "workspacePath": null,
+        "id": "k3ZArGYaqQh8uUMf"
+    },
+    {
+        "type": "File",
+        "name": "c:\\Users\\MyPC\\ReactNativeCLI\\FoodAppNew\\android\\settings.gradle",
+        "parent_id": null,
+        "fsPath": "c:\\Users\\MyPC\\ReactNativeCLI\\FoodAppNew\\android\\settings.gradle",
+        "workspaceRoot": null,
+        "workspacePath": null,
+        "id": "RWDowPzGvpqV35mI"
+    },
+    {
+        "type": "File",
+        "name": "c:\\Users\\MyPC\\ReactNativeCLI\\FoodAppNew\\android\\gradle.properties",
+        "parent_id": null,
+        "fsPath": "c:\\Users\\MyPC\\ReactNativeCLI\\FoodAppNew\\android\\gradle.properties",
+        "workspaceRoot": null,
+        "workspacePath": null,
+        "id": "J5knlDhj7b3NRvxA"
+    },
+    {
+        "type": "File",
+        "name": "c:\\Users\\MyPC\\ReactNativeCLI\\FoodAppNew\\android\\build.gradle",
+        "parent_id": null,
+        "fsPath": "c:\\Users\\MyPC\\ReactNativeCLI\\FoodAppNew\\android\\build.gradle",
+        "workspaceRoot": null,
+        "workspacePath": null,
+        "id": "NruIy74M3iU5QaVf"
+    },
+    {
+        "type": "Group",
+        "name": "home",
+        "parent_id": null,
+        "workspaceRoot": null,
+        "workspacePath": null,
+        "id": "hgJN0Qz8YF2t4BLG"
+    },
+    {
+        "type": "Group",
+        "name": "cart",
+        "parent_id": null,
+        "workspaceRoot": null,
+        "workspacePath": null,
+        "id": "E3DmdUMaGb8zeqwp"
+    },
+    {
+        "type": "Group",
+        "name": "search",
+        "parent_id": null,
+        "workspaceRoot": null,
+        "workspacePath": null,
+        "id": "D18rQ5SXnotOCp2y"
+    },
+    {
+        "type": "Group",
+        "name": "profile",
+        "parent_id": null,
+        "workspaceRoot": null,
+        "workspacePath": null,
+        "id": "MtL5gGJQH0r1DkTR"
+    },
+    {
+        "type": "File",
+        "name": "c:\\Users\\MyPC\\ReactNativeCLI\\FoodAppNew\\Screen\\FoodDetailScreen.js",
+        "parent_id": "hgJN0Qz8YF2t4BLG",
+        "fsPath": "c:\\Users\\MyPC\\ReactNativeCLI\\FoodAppNew\\Screen\\FoodDetailScreen.js",
+        "workspaceRoot": null,
+        "workspacePath": null,
+        "id": "iHtZuNTD0xhKlA16"
+    },
+    {
+        "type": "File",
+        "name": "c:\\Users\\MyPC\\ReactNativeCLI\\FoodAppNew\\Screen\\HomeFoodScreen.js",
+        "parent_id": "hgJN0Qz8YF2t4BLG",
+        "fsPath": "c:\\Users\\MyPC\\ReactNativeCLI\\FoodAppNew\\Screen\\HomeFoodScreen.js",
+        "workspaceRoot": null,
+        "workspacePath": null,
+        "id": "fTDlOExc38PgjUBw"
+    },
+    {
+        "type": "File",
+        "name": "c:\\Users\\MyPC\\ReactNativeCLI\\FoodAppNew\\Screen\\ProfileScreen.js",
+        "parent_id": "MtL5gGJQH0r1DkTR",
+        "fsPath": "c:\\Users\\MyPC\\ReactNativeCLI\\FoodAppNew\\Screen\\ProfileScreen.js",
+        "workspaceRoot": null,
+        "workspacePath": null,
+        "id": "TkyBFGLisjRd5Wqr"
+    },
+    {
+        "type": "Group",
+        "name": "login and register",
+        "parent_id": null,
+        "workspaceRoot": null,
+        "workspacePath": null,
+        "id": "SxDIneCNpta8Xu45"
+    },
+    {
+        "type": "File",
+        "name": "c:\\Users\\MyPC\\ReactNativeCLI\\FoodAppNew\\Screen\\RegisterScreen.js",
+        "parent_id": "SxDIneCNpta8Xu45",
+        "fsPath": "c:\\Users\\MyPC\\ReactNativeCLI\\FoodAppNew\\Screen\\RegisterScreen.js",
+        "workspaceRoot": null,
+        "workspacePath": null,
+        "id": "Ed7pMIKeqCRukDVc"
+    },
+    {
+        "type": "File",
+        "name": "c:\\Users\\MyPC\\ReactNativeCLI\\FoodAppNew\\Screen\\LoginScreen.js",
+        "parent_id": "SxDIneCNpta8Xu45",
+        "fsPath": "c:\\Users\\MyPC\\ReactNativeCLI\\FoodAppNew\\Screen\\LoginScreen.js",
+        "workspaceRoot": null,
+        "workspacePath": null,
+        "id": "IfAGDj7t03HVi6KE"
+    },
+    {
+        "type": "Group",
+        "name": "introduce",
+        "parent_id": null,
+        "workspaceRoot": null,
+        "workspacePath": null,
+        "id": "zCrOTkZXnqEUQ78m"
+    },
+    {
+        "type": "File",
+        "name": "c:\\Users\\MyPC\\ReactNativeCLI\\FoodAppNew\\Screen\\IntroduceScreen.js",
+        "parent_id": "zCrOTkZXnqEUQ78m",
+        "fsPath": "c:\\Users\\MyPC\\ReactNativeCLI\\FoodAppNew\\Screen\\IntroduceScreen.js",
+        "workspaceRoot": null,
+        "workspacePath": null,
+        "id": "vxdJs2iKmOPLCf7p"
+    },
+    {
+        "type": "File",
+        "name": "c:\\Users\\MyPC\\ReactNativeCLI\\FoodAppNew\\Screen\\CartScreen.js",
+        "parent_id": "E3DmdUMaGb8zeqwp",
+        "fsPath": "c:\\Users\\MyPC\\ReactNativeCLI\\FoodAppNew\\Screen\\CartScreen.js",
+        "workspaceRoot": null,
+        "workspacePath": null,
+        "id": "u1PNLe84qIdrAWUv"
+    },
+    {
+        "type": "File",
+        "name": "c:\\Users\\MyPC\\ReactNativeCLI\\FoodAppNew\\Screen\\ManagerFood.js",
+        "parent_id": "MtL5gGJQH0r1DkTR",
+        "fsPath": "c:\\Users\\MyPC\\ReactNativeCLI\\FoodAppNew\\Screen\\ManagerFood.js",
+        "workspaceRoot": null,
+        "workspacePath": null,
+        "id": "pHCQGdEF4c50zXYo"
+    }
+]

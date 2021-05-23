@@ -1,0 +1,119 @@
+tim gia tri replace cuc nhanh
+search data 
+Ctrl + Shift + L
+
+tong cong 3 add
+gradlew clean build
+
+
+Cleaning gradle cache works for me
+
+Stop gradlew on Windows:
+gradlew --stop
+
+Stop gradlew on Mac or Linux:
+./gradlew --stop
+
+Clean cache on Windows:
+gradle cleanBuildCache
+
+Clean cache on Mac or Linux:
+./gradlew cleanBuildCache
+
+
+
+cach de doc object
+[Object object]
+JSON.stringify(snapshot)
+ snapshot.val().id
+
+
+
+//google 
+If you want to see your SHA-1 hash code of previously created debug.keystore file then type this command below in the terminal of android/app/ directory.
+
+keytool -keystore debug.keystore -list -v
+1
+keytool -keystore debug.keystore -list -v
+Also, make sure you clean the gradle build after making any changes while debugging by this command below.
+pass directory android/app bui.gradle
+ signingConfigs {
+        debug {
+            storeFile file('debug.keystore')
+            storePassword 'android'
+            keyAlias 'androiddebugkey'
+            keyPassword 'android'
+        }
+    }
+hoặc endter cũng được
+
+
+
+//lay anh goc cua fb
+ initUser(token) {
+    fetch(
+      'https://graph.facebook.com/v2.5/me?fields=email,name,friends&access_token=' +
+        token,
+    )
+      .then((response) => response.json())
+      .then((json) => {
+        console.log('json', json.id);
+        // Some user object has been set up somewhere, build that user here
+        // user.name = json.name
+        // user.id = json.id
+        // user.user_friends = json.friends
+        // user.email = json.email
+        // user.username = json.name
+        // user.loading = false
+        // user.loggedIn = true
+        // user.avatar = setAvatar(json.id)
+      })
+      .catch(() => {
+        reject('ERROR GETTING DATA FROM FACEBOOK');
+      });
+  }
+
+
+ AccessToken.getCurrentAccessToken().then((token) => {
+      try {
+        const graphRequest = new GraphRequest(
+          '/me',
+          {
+            accessToken: token.accessToken,
+            parameters: {
+              fields: {
+                string: 'picture.type(large)',
+              },
+            },
+          },
+          (error, result) => {
+            if (error) {
+              console.log(error);
+            } else {
+              this.setState({
+                picture: result.picture.data.url,
+              });
+            }
+          },
+        );
+        new GraphRequestManager().addRequest(graphRequest).start();
+      } catch (e) {}
+    });
+
+    //end
+
+       // if (snapshot.exists()) {
+        //   snapshot.child('food').forEach((food) => {
+        //     console.log('food dab', food.val());
+        //     listFood.push({
+        //       categorie: food.val().categorie,
+        //       id: food.val().id,
+        //       image: food.val().image,
+        //       name: food.val().name,
+        //       price: food.val().price,
+        //     });
+        //   });
+        // }
+        // console.log('list total', listFood);
+        // this.setState({dataFood: listFood});
+        // console.log('sna', snapshot.val());
